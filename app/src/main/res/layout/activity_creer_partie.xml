@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- NOMBRE DE TOURS !-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtNbrTours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNbrTours"
+            android:textStyle="bold"
+            android:gravity="center"
+            >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editNbrTours"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <!-- STOCK INITIAL !-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtStockIni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtStockIni"
+            android:textStyle="bold"
+            android:gravity="center"
+            >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editStockIni"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <!-- SCENARIO !-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtScenario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtScenario"
+            android:textStyle="bold"
+            android:gravity="center"
+            >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinnerScénario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Scénario"
+            android:prompt="@array/Scénario" />
+    </LinearLayout>
+
+    <!-- IDENTIFIANT PARTIE !-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtIdPartieMJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtIdPartie"
+            android:textStyle="bold"
+            android:gravity="center"
+            >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editIdPartie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <!-- BOUTTON !-->
+
+    <Button
+        android:id="@+id/create_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/Create_party" />
+
+    <Button
+        android:id="@+id/precedent_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precedent" />
+
+</LinearLayout>

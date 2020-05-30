@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Les Brasseurs</string>
+    <string name="Create_party">Créer une partie</string>
+    <string name="Join_party">Rejoindre une partie</string>
+    <string name="ButtonInstruction">instruction du jeu</string>
+    <string name="instruction">Le \"BEER GAME\" est un jeu qui met en avant le fonctionne d une chaine logistique (Supply Chain) à travers         l approvisionnement de la bière dans un bar.         L’objectif de ce jeu est de minimisiez les coûts de rupture et de possession (stock): posséder du stock engendre des coûts de stockage         (0,5€/item) et ne pas pouvoir répondre à la demande de votre client engendre des coûts des coûts de rupture (1€/ item).         Pour pouvoir y jouer, voici les étapes à suivre :         1) Sélectionnez le rôle que vous désirez incarner.         2) Le maître du jeu va configurer la partie (stock initial) ainsi que l\'identifiant de partie pour que vous puissez vous connecter.         3) Lorsque la partie est lancée, déterminé la quantité de bière que vous souhaitez envoyer à votre client.         4) Sélectionnez la quantité de bière que vous souhaitez demander à votre fournisseur.         5) Recevez des commandes de votre fournisseur qui vous permettront de renflouer votre stock.</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="txtDistributeur">Distributeur</string>
+    <string name="txtBrasseur">Brasseur</string>
+    <string name="txtPasDeRole">Pas de rôle</string>
+    <string name="txtDetaillant">Détaillant</string>
+    <string name="txtGrossiste">Grossiste</string>
+    <string name="txtOngletJeu">JEU</string>
+    <string name="txtOngletDonnees">Données</string>
+    <string name="txtNb1">NB: Le retard accumulé représente la quantité de bières non livrées depuis le début de la partie. Il faut donc satisfaire la demande client + le retard accumulé dans la case livraison.</string>
+    <string name="txtNb2">NB: La quantité attendue représente la quantité de bières non livrées depuis le début de la partie par notre fournisseur. Il faut donc s\'attendre à recevoir cette quantité lorsque c\'est possible pour notre fournisseur direct, en plus de notre demande.</string>
+    <string name="txtNbrTours">Nombre de tours:</string>
+    <string name="txtStockIni">Stock initial:</string>
+    <string name="txtIdPartie">identifiant partie:</string>
+    <string name="txtPseudonyme">Pseudonyme:</string>
+    <string name="txtRole">Rôle</string>
+
+    <!-- Liste déroulante pour le choix du scénario !-->
+    <string name="txtScenario">Scénario</string>
+    <string-array name="Scénario">
+        <item></item>
+        <item>Scénario 1</item>
+        <item>Scénario 2</item>
+        <item>Scénario 3</item>
+    </string-array>
+</resources>
